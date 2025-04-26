@@ -142,7 +142,6 @@ textarea:focus {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
   gap: 1rem;
   padding: 1rem;
   border: 1.5px solid color-mix(in oklab, beige 50%, transparent);
@@ -173,7 +172,7 @@ textarea:focus {
 }
 
 .post-footer {
-  width: 500px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
