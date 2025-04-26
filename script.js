@@ -110,7 +110,7 @@ document.getElementById("signin-btn").addEventListener("click", async (e) => {
   try {
     await signInWithEmailAndPassword(auth, email, password);
     signinForm.style.display = "none";
-    homeContainer.style.display = "block";
+    homeContainer.style.display = "flex";
     displayPosts();
   } catch (error) {
     console.error("Sign in error:", error.message);
